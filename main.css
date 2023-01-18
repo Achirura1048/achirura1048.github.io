@@ -1,0 +1,39 @@
+body{
+    background-color: darkcyan;
+    background-image: url("https://wallpapercrafter.com/desktop/10631-starry-sky-stars-space-dark-astronomy-4k.jpg");
+    color: #d6eef7 ;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 200%;
+  
+}
+
+.ipt input{
+    background-color: #b0abcb;
+    color: #4359d6;
+    font-size: 100%;
+}
+
+input{
+    background-color: #b0abcb;
+    color: #4359d6;
+    font-size: 100%;
+}
+
+input:hover{
+    background-color: #a4d5d4 ;
+    color: gray ;
+    font-size: 100%;
+}
+
+input:active{
+    background-color: #a4d5d4;
+    color: rgba(226,166,192,255);
+    font-size: 100%;
+}
+
+.sonuc{
+    color:rgba(186,212,241,255);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 200%;
+}
