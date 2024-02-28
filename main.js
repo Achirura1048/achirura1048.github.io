@@ -1,95 +1,22 @@
-function topla() {
-  document.getElementById("k1");
-  var sayi1 = k1.value;
-  sayi1 = Number(sayi1);
-
-  document.getElementById("k2");
-  var sayi2 = k2.value;
-  sayi2 = Number(sayi2);
-
-  var sonuc = sayi1 + sayi2;
-  sonuc = Number(sonuc);
-
-  document.getElementById("toplam").innerHTML = "SONUÇ: "+sonuc;
-  if(isNaN(sonuc)){
-    document.getElementById("toplam").innerHTML = "LÜTFEN GEÇERLİ BİR DEĞER GİRİNİZ";
-  }
-}
-
-function cikar() {
-  document.getElementById("k1");
-  var sayi1 = k1.value;
-  sayi1 = Number(sayi1);
-
-  document.getElementById("k2");
-  var sayi2 = k2.value;
-  sayi2 = Number(sayi2);
-
-  var sonuc = sayi1 - sayi2;
-  sonuc = Number(sonuc);
-
-  document.getElementById("toplam").innerHTML = "SONUÇ: "+sonuc;
-  if(isNaN(sonuc)){
-    document.getElementById("toplam").innerHTML = "LÜTFEN GEÇERLİ BİR DEĞER GİRİNİZ";
-  }
-}
-
-function carp() {
-  document.getElementById("k1");
-  var sayi1 = k1.value;
-  sayi1 = Number(sayi1);
-
-  document.getElementById("k2");
-  var sayi2 = k2.value;
-  sayi2 = Number(sayi2);
-
-  var sonuc = sayi1 * sayi2;
-  sonuc = Number(sonuc);
-
-  document.getElementById("toplam").innerHTML = "SONUÇ: "+sonuc;
-  if(isNaN(sonuc)){
-    document.getElementById("toplam").innerHTML = "LÜTFEN GEÇERLİ BİR DEĞER GİRİNİZ";
-  }
-}
-
-function bol() {
-  document.getElementById("k1");
-  var sayi1 = k1.value;
-  sayi1 = Number(sayi1);
-
-  document.getElementById("k2");
-  var sayi2 = k2.value;
-  sayi2 = Number(sayi2);
-
-  var sonuc = sayi1 / sayi2;
-  sonuc = Number(sonuc);
-
-  document.getElementById("toplam").innerHTML = "SONUÇ: "+sonuc;
-  if(isNaN(sonuc)){
-    document.getElementById("toplam").innerHTML = "LÜTFEN GEÇERLİ BİR DEĞER GİRİNİZ";
-  }
-}
-
-function mod() {
-  document.getElementById("k1");
-  var sayi1 = k1.value;
-  sayi1 = Number(sayi1);
-
-  document.getElementById("k2");
-  var sayi2 = k2.value;
-  sayi2 = Number(sayi2);
-
-  var sonuc = sayi1 % sayi2;
-
-  sonuc = Number(sonuc);
-  document.getElementById("toplam").innerHTML = "SONUÇ: "+sonuc;
-  if(isNaN(sonuc)){
-    document.getElementById("toplam").innerHTML = "LÜTFEN GEÇERLİ BİR DEĞER GİRİNİZ";
-  }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIYAMAM</title>
+    <style>
+        body{
+    background-color: rgb(255, 0, 179);
+    
+    color: #7e0a8d ;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 200%;
   
 }
-function temizle() {
-  document.getElementById("k1").value = "";
-  document.getElementById("k2").value = "";
-  document.getElementById("toplam").innerHTML = "";
-}
+
+    </style>
+</head>
+<body>
+    <h1>HAYIR BEN DAHA ÇOK KIYAMAM</h1>
+</body>
+</html>
